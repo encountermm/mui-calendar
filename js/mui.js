@@ -3462,7 +3462,8 @@ Function.prototype.bind = Function.prototype.bind || function(to) {
                     contentinit: '下拉可以刷新',
                     contentdown: '下拉可以刷新',
                     contentover: '释放立即刷新',
-                    contentrefresh: '正在刷新...'
+                    contentrefresh: '正在刷新...',
+                    contentnomore: '没有更多数据了'
                 },
                 up: {
                     height: 50,

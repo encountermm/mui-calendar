@@ -8,7 +8,6 @@ body{
 	color:#666666; 
 	font-size:14px; 
 	font-family:"微软雅黑"; 
-	background-color:#fff; 
 	height:100%; 
 	overflow-y:scroll;
 }
@@ -32,10 +31,24 @@ ul{
 .clearfix{
 	zoom:1;
 }
+.calendar-para{
+	margin: 5px !important;
+}
+
+.submit-schedule{
+	width: 30%;
+	line-height: 36px; 
+	padding:0 20px;
+	display: block;
+	margin: 50px auto;
+	
+}
+
+
 /*日历*/
 .calendar-container{
 	width:calc(100% - 10px);
-	margin: 5px;
+	margin:10px 5px 10px 5px;
 	border-radius:2px;
 }
 .calendar-title{
@@ -94,7 +107,6 @@ ul{
 	width:14.28%; 
 	height: 40px;
 	line-height: 40px;
-	padding: 5px 0px;
 	background-color:#f2f5f9; 
 	color:#333; 
 	text-align:center; 
@@ -103,10 +115,19 @@ ul{
 .calendar-content .canChoose{
 	background-color:#f2f5f9;
 }
-.calendar-content .canChoose:hover{
+
+.calendar-content div.today{
+	color:#fff;
+	background-color:#9E9E9E; 
+}
+
+.canChoose-active{
 	color: #fff;
 	background-color:#09F;
 }
-.calendar-content div.today{
-	color:#09F;
+
+
+.lala{
+	color: #FFFFFF;
+	background:#09F;
 }

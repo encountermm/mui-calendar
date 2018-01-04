@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>档期</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/calendar.css"/>
+</head>
+<body>
+
+	<!--content-->
+	<div class="mui-content" id="calenderContent">
+	</div>
+
+	
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/mui.js"></script>
+	<script src="js/calendar.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		mui.init();
+		//引入日历控件
+		var cld = new Calendar({
+			el: 'div',
+			value: '', // 默认为new Date();
+			scheduleArr: ["2017-12-01","2017-12-12","2017-12-25","2017-12-26","2017-12-27","2018-1-27"],//给一个档期数组，默认为空;
+		})
+		
+		
+		
+	</script>
+</body>
+</html>
